@@ -1,0 +1,58 @@
+@media screen and (min-width: 1000px) {
+    .description {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+    .botao {
+        margin-top: 5px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .movie-first {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .movie-first .title {
+        text-align: center;
+    }
+    .movie-first .description {
+        width: 95%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .botoes .container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .botao {
+        width: 220px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        min-width: 320px;
+    }
+}
